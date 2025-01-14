@@ -24,7 +24,7 @@ $(document).ready(function() {
             method: 'GET',
             url: 'http://www.omdbapi.com/',
             data: {
-                apikey: 'CS546',
+                apikey: '',
                 s: movie_search_term
             }
         };
