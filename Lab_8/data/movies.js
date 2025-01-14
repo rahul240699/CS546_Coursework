@@ -19,7 +19,7 @@ export const searchMoviesByTitle = async (title) => {
   */
   checkStringParams(title);
   title = title.trim();
-  let key = "CS546";
+  let key = "";
   let moviesearch = await axios.get(`http://www.omdbapi.com/?apikey=${key}&s=${title}`);
   let page1 = moviesearch.data.Search || [];
   
