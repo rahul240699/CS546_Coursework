@@ -1,0 +1,145 @@
+/*This file should have 10 CSS rulesets */
+body{
+    background: #00FFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+h1{
+    color:  #FF4500;
+    font-weight: bolder;
+    margin: 15px 0;  
+    display: flex;             
+    align-items: center;  
+}
+
+
+main{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.button{
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+a:link {
+    color: #6900ff;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #a5c300;
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #bae498;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+}
+
+a:active {
+    background: #6900ff;
+    color: #cdfeaa;
+    text-decoration: none;
+}
+
+.error {
+    color: #D8000C;           
+    background-color: #FFBABA; 
+    border: 1px solid #D8000C; 
+    padding: 10px 15px;        
+    border-radius: 5px;        
+    margin: 15px 0;            
+    display: flex;             
+    align-items: center;                     
+}
+
+#searchByTitle{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.table {
+    width: 100%;                
+    border-collapse: collapse;  
+    margin: 20px 0;             
+    font-size: 1rem;            
+    text-align: left;          
+}
+
+.table th, .table td {
+    padding: 12px 15px;         
+    border: 1px solid #ddd;     
+}
+
+.table th {
+    background-color: #f2f2f2;  
+    font-weight: bold;          
+}
+
+.table tr {
+    background-color: #f9f9f9;  
+}
+
+.table tr:hover {
+    background-color: #f1f1f1; 
+}
+
+article {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+article h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+article p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.image{
+    width: 200px;
+    height: 300px;
+    margin: 20px 0;
+    padding: auto;
+}
+
+.no-image{
+    width: 200px;
+    height: 300px;
+    background-color: #e0e0e0; 
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-image-search{
+    width: 75px;
+    height: 117px;
+    font-size: smaller;
+    background-color: #e0e0e0; 
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

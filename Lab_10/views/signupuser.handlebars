@@ -1,0 +1,47 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+<form action="/signupuser" method="POST" id="signup-form" name="signup-form">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" ><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" ><br>
+
+    <label for="userId">User Id:</label>
+    <input type="text" id="userId" name="userId" ><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" ><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" ><br>
+
+    <label for="favoriteQuote">Favourite Quote:</label>
+    <input type="text" id="favoriteQuote" name="favoriteQuote" ><br>
+
+    <label for="backgroundColor">Theme Preference - Background Color:</label>
+    <input type="color" id="backgroundColor" name="backgroundColor"> <br>
+
+    <label for="fontColor">Theme Preference - Font Color:</label>
+    <input type="color" id="fontColor" name="fontColor"> <br>
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select><br> <br> 
+
+    <input type="submit" value="Sign Up" id="submitButton" name="submitButton"> 
+    
+</form>
+
+<div id="error">
+
+ </div>
+<br>
+<a href="/signinuser">Already have an account? Click here to sign-in</a> <br><br>
+<script src="/public/js/form_validate.js"></script>

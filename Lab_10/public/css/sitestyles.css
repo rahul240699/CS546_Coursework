@@ -1,0 +1,91 @@
+/* You will create a CSS stylesheet in /public/css/styles.css; this file should have at least 5 rulesets.  You will need to utilize all 5 rulesets on each of the pages (not every page has to use all 5 rulesets each but all 5 rulesets must be utilized by the various pages in your application).  So you can have some rulesets for one page, some for another page but there needs to be at least 5 total rulesets that are used between all the pages. There are two specific rulesets you need to create in addition to the 5 other rulesets:  .light and .dark.  Depending of the user's theme preferences stored in the session, your pages will be displayed using the user's theme preferences. If their theme preference is "light" then the background color of the page should be white and the text color of the page should be black.  If their theme preference is "dark" then the background color of the page should be black and the text color should be white.  HINT: You can just set the body element's class to either dark or light depending on their themePreference stored in the session. obviously, the theme preference only is active after a user is logged in.  */
+
+/* two rulesets you MUST implement in addition to the other 5:
+
+.light{
+    
+}
+
+.dark{
+
+}
+
+*/
+body{
+    background: #00FFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+
+#submitButton{
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#submit_button{
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+a:link {
+    color: #6900ff;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #a5c300;
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #bae498;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+}
+
+a:active {
+    background: #6900ff;
+    color: #cdfeaa;
+    text-decoration: none;
+}
+
+#error {
+    color: #D8000C;           
+    background-color: #FFBABA; 
+    border: 1px solid #D8000C; 
+    padding: 10px 15px;        
+    border-radius: 5px;        
+    margin: 15px 0;            
+    display: flex;             
+    align-items: center;     
+    /* display: none;                 */
+}
+
+#signin-error{
+    color: #D8000C;           
+    background-color: #FFBABA; 
+    border: 1px solid #D8000C; 
+    padding: 10px 15px;        
+    border-radius: 5px;        
+    margin: 15px 0;            
+    display: flex;             
+    align-items: center;
+    /* display: none;  */
+}

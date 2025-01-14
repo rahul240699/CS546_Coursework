@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "This is My Lab 3 Module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "author": "Rahul Sohandani 20022124",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}

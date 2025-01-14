@@ -1,0 +1,20 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "This is my Lab 4 Module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "author": "Rahul Sohandani 20022124",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}

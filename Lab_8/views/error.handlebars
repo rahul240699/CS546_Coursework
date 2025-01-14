@@ -1,0 +1,12 @@
+{{!
+You can use this template to render any errors on your site if you wish
+}}
+
+{{#if searchError}}
+    <p class="error">{{searchError}}</p>
+{{else if idError}}
+    <p class="error">{{idError}}</p>
+{{else}}
+    <p class="error">We're sorry, but no results were found for {{searchByTitle}}.</p>
+{{/if}}
+<a href="/">Search for Another Movie</a>

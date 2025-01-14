@@ -1,0 +1,84 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;    
+    margin: 20px 0;          
+    font-size: 1rem;        
+}
+
+.is-prime{
+    color: #00ff00;
+}
+
+.not-prime{
+    color: #ff0000;
+}
+
+body{
+    background: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    height: 100%;
+    flex: 1;
+}
+
+main{
+    flex: 1;
+}
+
+h1{
+    color:  #FF4500;
+    font-weight: bolder;
+    margin: 15px 0;  
+    display: flex;             
+    align-items: center;  
+}
+
+.button{
+    background-color: gold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+}
+
+#fibonacci_index_input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+
+#error {
+    color: #ff0000;           
+    background-color: wheat; 
+    border: 1px solid wheat; 
+    padding: 10px 15px;        
+    border-radius: 5px;        
+    margin: 15px 0;            
+    display: flex;             
+    align-items: center;                     
+}
+
+label {
+    display: inline-block;      
+    font-size: 1rem;            
+    font-weight: bold;          
+    margin-bottom: 8px;         
+    color: #333;              
+    cursor: pointer;           
+}
